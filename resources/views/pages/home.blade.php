@@ -1,6 +1,6 @@
 @extends('pages.templet')
 @section('content')
-
+    <h1>ahmed ali</h1>
 
     <div class="row">
         <div class="col-lg-9 pull-right">
