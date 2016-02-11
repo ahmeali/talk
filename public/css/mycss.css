@@ -1,0 +1,329 @@
+body{
+    margin:0px auto;
+    background-color: #DBECEF;
+}
+
+.row{
+    margin:0px auto!important;
+    padding:0px auto!important;
+}
+
+.navbar-form {
+    padding:0px 0px!important;
+}
+
+.btn-circle {
+    background-color:#346373;
+    color: #fff!important;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px!important;
+    margin-right:5px!important;
+}
+
+#srch-term {
+    background-color:#c0e7ee;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+
+#logo{
+    height:0px;
+    weight:50px;
+    margin-top:0px!important;
+    margin-right:15px;
+    margin-bottom:25px;
+    margin-left:1150px;
+    padding:0px auto;
+
+}
+
+#points{
+    width:1000px !important;
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:7px;
+    margin-left:200px;
+    padding-right:50px;
+}
+
+.button {
+    color:#00212d;
+    font-size:15px;
+    padding-top:5px!important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.down {
+    background-color: #b0d3d9;
+    color: #001652;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-family: emedium;
+}
+
+.thumbnail {
+    background-color: #b0d3d9!important;
+    border: 1px solid transparent!important;
+}
+
+.thumbnail.caption{
+    padding: 3px!important;
+    color: #000036!important;
+}
+
+#footer {
+    background-color: #6e949f;
+    color: #fff!important;
+    padding: 10px 10px 50px 10px;
+}
+
+#email-term {
+    background-color: #c0e7ee !important;
+
+}
+
+.container{
+    background-color: #ffffff;
+    height:100%;
+}
+
+.headerBig-Image{
+    width: 100%;
+    margin-left: 80px;
+    position: relative;
+    top: -30px;
+}
+
+.logo-icon{
+    margin: 5px;
+}
+
+@font-face {
+    font-family: ebold;
+    src: url('/fonts/GE SS Two Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: elight;
+    src: url('/fonts/GE SS Two Light.otf') format('opentype');
+}
+@font-face {
+    font-family: emedium;
+    src: url('/fonts/GE SS Two Medium.otf') format('opentype');
+}
+
+#left{
+    background-color: white!important;
+    padding:0px ;
+    border:1px solid #003849!important;
+    border-radius:3px!important;
+    text-align: right!important;
+
+}
+.carousel-indicators li {
+    background-color:white;
+
+}
+
+.carousel-indicators .active {
+    background-color: #78c8ab;
+}
+
+@media screen and (min-width: 768px){
+    .carousel-caption{
+        right: 5%;
+        left: 20%;
+        padding-bottom: 60px;
+        bottom: 15%;
+        padding-right: 20px;
+    }
+
+    ul.navbar-nav > li {
+        float: none !important;
+        display: inline-block !important;
+        margin-right: -4px;
+    }
+
+    ul.navbar-nav > li a {
+        color: #fff!important;
+        font-size:18px;
+        border-right: 1px solid  #011955;
+        border-left: 1px solid  white;
+        padding: 0 25px;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navbar-nav > li:last-child a {
+        border-right: none;
+    }
+
+    .navbar-nav > li:first-child a {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .container{
+        background-color: #ffffff;
+        height:100%;
+        width:100% !important;
+    }
+
+    .slider-main-navigator{
+        margin-top:60px !important;
+    }
+
+}
+.carousel-caption{
+    font-size: 25px;
+    display: inline;
+    text-align: right;
+    background-color: rgba(128,128,128,0.5);
+}
+
+.header-name{
+    padding-right:10px; !important;
+    background-color: #376773;
+    color: white;
+    font-size:150%;
+    font-family: elight;
+}
+
+.text{
+    color:#376773!important;
+    padding-right:7px!important;
+    padding-left:7px;
+    font-family: elight;
+}
+.radio{
+    font-family: elight;
+    color:#376773!important;
+}
+a{
+    text-decoration: none !important;
+}
+
+.nav_link{
+    color:black !important;
+    font-family: italic;
+    font-size: 16px;
+}
+
+.glyph{
+    cursor: pointer;
+}
+.glyph>div{
+    height:3px;width:30px;background-color: gray;margin-bottom: 4px;
+}
+.glyph>div:first-child{
+    margin-top: 15px;
+}
+.glyph>div:last-child{
+    margin-top: 0px;
+}
+
+.list{
+    position: fixed;
+    height: 100%;
+    width:40%;
+    left:-40%;
+    z-index: 8797897979;
+    background-color: #B0D3D9;
+    border-left:1px solid gray;
+    transition: .6s left ease;
+    font-family: emedium;
+}
+
+.list>ul{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 0px;
+}
+
+.list>ul>li :after{
+    content: "-";
+}
+
+.list>ul>li:first-child :after{
+    content: "";
+}
+
+.list>ul>li {
+    text-align: right;
+    padding-right: 20px;
+    border-bottom: dashed 1px white;
+}
+
+.list>ul>li:hover {
+    color: red;
+    background-color: white ;
+}
+
+.list>ul>li:first-child {
+    padding: 15px 20px;
+}
+
+.list>ul>li>a{
+    color: #333333;
+    font-size: 18px;
+}
+
+.list>ul>li>a:hover{
+    color: red;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 24px 0px;
+    pointer-events: none;
+    right:25px;
+}
+
+.close-list{
+    height:65px;
+    width:10%;
+    position: fixed;
+    top:0;
+    left:-40%;
+    z-index: 556464454;
+    background-color: #B0D3D9;
+    border-right: dashed 1px white;
+    border-bottom: dashed 1px white;
+    transition: .7s left ease;
+    border-radius: 0px 0px 20px 0px ;
+}
+
+.close_the_list_icon{
+    font-size: 20px;
+    margin-top:20%;
+    margin-left:30%;
+    cursor: pointer;
+    color: #000000;
+}
+
+.movetoRight_list{
+    left:0 !important;
+}
+.movetoRight_list_icon{
+    left:40% !important;
+}
+
+
