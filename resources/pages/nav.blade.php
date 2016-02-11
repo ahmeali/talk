@@ -2,7 +2,7 @@
 <div class="row hidden-sm hidden-xs">
     <div class="col-xs-9">
         <div class="row">
-            <div class="col-xs-12 col-sm-7 col-md-4 col-lg-10 pull-left">
+            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-10 pull-left" style="padding-top:20px;">
 
                 <a href=""> <img src="/images/youtube.png"></a>
                 <a href=""><img src="/images/facebook.png"></a>
@@ -27,7 +27,7 @@
         </div>
         <div class="row  hidden-xs col-md-12 col-lg-12 "
              style="text-align:right; margin-bottom: -30px !important;">
-            <img class="headerBig-Image" src="/images/pictures/2.png">
+            <img class="headerBig-Image" src="/images/pictures/5.png">
         </div>
     </div>
     <div class="col-xs-3 pull-right " style="text-align:center">
@@ -73,13 +73,14 @@
 
             </div>
         </div>
-        <div class="col-xs-3 col-sm-3 text-center">
-            <h3 style="color: #ffffff;font-weight: bold">Etklmy</h3>
-        </div>
         <div class="col-xs-5 col-sm-5" style="height:100%">
             <div class="row" style="text-align: right;padding-right:20px;vertical-align: middle;margin-top: 5px !important;">
-                <h5><a href="/" class="nav_link"> Login </a><a href="/aa" class="nav_link"> & Register</a></h5>
+
+                <h5><a href="/" class="nav_link"> Log in </a><a href="/aa" class="nav_link">& Register</a></h5>
             </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 text-center">
+            <h3 style="color: #ffffff; font-family:ebold;">إتكلمى</h3>
         </div>
     </div>
 </div>
