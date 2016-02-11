@@ -1,6 +1,5 @@
 @extends('pages.templet')
 @section('content')
-    <h1>ahmed ali</h1>
 
     <div class="row">
         <div class=" col-md-9 col-lg-9 pull-right" style="font-family: emedium;">
