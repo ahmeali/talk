@@ -76,7 +76,7 @@
         <div class="col-xs-5 col-sm-5" style="height:100%">
             <div class="row" style="text-align: right;padding-right:20px;vertical-align: middle;margin-top: 5px !important;">
 
-                <h5><a href="/" class="nav_link"> Log in شاةثي شمه </a><a href="/aa" class="nav_link">& Register</a></h5>
+                <h5><a href="/" class="nav_link"> Log in</a><a href="/aa" class="nav_link">& Register</a></h5>
             </div>
         </div>
         <div class="col-xs-3 col-sm-3 text-center">
