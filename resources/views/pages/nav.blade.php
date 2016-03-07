@@ -1,15 +1,15 @@
 {{--This appear only when large or mideum screen--}}
-<div class="row hidden-sm hidden-xs">
-    <div class="col-xs-9">
+<div class="row hidden-sm hidden-xs" id="header">
+    <div class="col-xs-10" style="padding-left: 0;">
         <div class="row">
-            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-10 pull-left" style="padding-top:20px;">
+            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-10 pull-left" style="padding-left:0;padding-top:20px;">
 
                 <a href=""> <img src="/images/youtube.png"></a>
                 <a href=""><img src="/images/facebook.png"></a>
                 <a href=""><img src="/images/twitter.png"></a>
-                <a href="" class="button" style=" border-right:1px solid black !important; padding-right:5px; ">Log
+                <a href="" class="button" style=" border-right:1px solid black !important; padding-right:5px;font-family: my; ">Log
                     in </a>
-                <a href="" class="button"> Register </a>
+                <a href="" class="button" style="font-family: my; "> Register </a>
 
                 <form class="navbar-form" role="search">
                     <div class="input-group">
@@ -21,30 +21,35 @@
                     </div>
                 </form>
 
-                <a href="" class="button" style="border-right:1px solid black !important;"> English </a>
-                <a href="" class="button" style="padding-left:7px;"> عربي </a>
+                <a href="#" class="button" style="border-right:1px solid black !important; font-family: my; font-size: 17px;"> English </a>
+                <a href="#" class="button" style=" font-size:17px;font-family:elight;"> عربي </a>
+                <div id="header"></div>
             </div>
-        </div>
-        <div class="row  hidden-xs col-md-12 col-lg-12 "
-             style="text-align:right; margin-bottom: -30px !important;">
-            <img class="headerBig-Image" src="/images/pictures/5.png">
+
+
         </div>
     </div>
-    <div class="col-xs-3 pull-right " style="text-align:center">
-        <img src="/images/pictures/1.png" class="logo-icon">
+    <div class="col-xs-2 pull-right " style=" padding-right:0;text-align:center">
+        <a href="/" ><img src="/images/pictures/55.png" class="logo-icon"></a>
     </div>
 
 </div>
 
 <div class="list  hidden-md hidden-lg">
+    <div class="close close-list  hidden-md hidden-lg" style="margin-right: 10px;">
+        <span class="glyphicon glyphicon-remove close_the_list_icon"></span>
+    </div>
     <ul>
+
+            <h5>
+                <a href="/" class="nav_link"> Log in </a>
+                 <a href="/aa" class="nav_link"> Register </a></h5>
+
         <li class="inner-addon">
             <i class="glyphicon glyphicon-search"></i>
-            <input type="text" class="form-control" placeholder="Search...">
+            <input type="text" class="form-control" style="font-family: my" placeholder="Search ...">
         </li>
-        <li style="text-align: center;background-color: white">
-            <img src="/images/pictures/1.png" class="logo-icon">
-        </li>
+
         <li><a href="#"> الرئيسية </a></li>
         <li><a href="#"> تجمعاتنا </a></li>
         <li><a href="#"> دنيانا </a></li>
@@ -52,17 +57,20 @@
         <li><a href="#"> إتكلمى </a></li>
         <li><a href="#"> جاليري </a></li>
         <li><a href="#"> للاتصال بنا </a></li>
+        <div style=" padding-top: 5px; background-color: white;">
+            <a href="https://www.youtube.com/" style=" padding:0 7%;"><i class="fa fa-youtube-square fa-3x" style="background:white; color: red; border: 0;"></i></a>
+            <a href="" style="padding:0 5%;"><i class="fa fa-facebook-official fa-3x" style=" background: white; color:#032C7C;"></i></a>
+            <a href="" style="padding-left: 7%"><i class="fa fa-twitter-square fa-3x" style="background: white; color: #61CCF0"></i></a></div>
     </ul>
+
 </div>
 
-<div class="close-list  hidden-md hidden-lg">
-    <span class="glyphicon glyphicon-remove close_the_list_icon"></span>
-</div>
+
 
 {{--This appear only when small screen--}}
 <div class="row hidden-md hidden-lg navbar-fixed-top "
      style="z-index: 9797997; width:100%;border-bottom: 2px solid #888888; ">
-    <div class="row" style="background-color:#B0D3D9">
+    <div class="row" style="background-color:#B0D3D9;">
         <div class="col-xs-4 col-sm-4">
             <div class="row" style="padding-left: 20px;">
                 <div class="glyph">
@@ -73,14 +81,13 @@
 
             </div>
         </div>
-        <div class="col-xs-5 col-sm-5" style="height:100%">
-            <div class="row" style="text-align: right;padding-right:20px;vertical-align: middle;margin-top: 5px !important;">
+<div class="col-xs-4 col-sm-4" style="padding-top: 15px; text-align: center;">
+    <a href="#" style="border-right:1px solid black !important;  font-family: my; font-size: 12pt; "> Eng </a>
+    <a href="#"  style=" padding-left:3px;font-family:elight; font-size: 12pt;"> عربي </a>
+</div>
+        <div class="col-xs-4 col-sm-4 text-center">
+            <img src="images/pictures/lo.png"/>
 
-                <h5><a href="/" class="nav_link"> Log in </a><a href="/aa" class="nav_link">& Register</a></h5>
-            </div>
-        </div>
-        <div class="col-xs-3 col-sm-3 text-center">
-            <h3 style="color: #ffffff; font-family:ebold;">إتكلمى</h3>
         </div>
     </div>
 </div>
@@ -98,15 +105,15 @@
 
     <div class="collapse navbar-collapse" id="navHeaderCollapse">
         <ul class="nav navbar-nav navbar-right"
-            style="text-align:center; width:100%; margin-right:15px!important;font-family: elight!important;">
+            style="text-align:center; width:100%; margin-right:15px!important;font-family: ebold!important; font-size: 18px; ">
 
             <li><a href="#"> للاتصال بنا </a></li>
             <li><a href="#"> جاليري </a></li>
             <li><a href="#"> إتكلمى </a></li>
-            <li><a href="#"> انضمي لنا </a></li>
+            <li><a href="/joinus"> انضمي لنا </a></li>
             <li><a href="#"> دنيانا </a></li>
-            <li><a href="#"> تجمعاتنا </a></li>
-            <li><a href="#"> الرئيسية </a></li>
+            <li><a href="/tagmoatna"> تجمعاتنا </a></li>
+            <li><a href="/"> الرئيسية </a></li>
         </ul>
 
     </div>

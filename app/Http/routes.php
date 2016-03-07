@@ -19,3 +19,7 @@ Route::controllers([
 ]);*/
 
 Route::get('/','pagescontroller@index');
+Route::get('/tagmoatna','pagescontroller@tagmoatna');
+Route::get('/joinus','pagescontroller@joinus');
+Route::get('/slider1','pagescontroller@slider1');
+

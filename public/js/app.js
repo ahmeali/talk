@@ -14,4 +14,6 @@
         list.removeClass("movetoRight_list");
         list_icon_close.removeClass("movetoRight_list_icon");
     });
+
 })();
+

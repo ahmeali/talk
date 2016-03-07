@@ -11,5 +11,16 @@ class pagescontroller extends Controller {
 	{
 		return view('pages/home');
 	}
-
+	public function tagmoatna()
+	{
+		return view('pages/tagmoatna');
+	}
+    public function joinus()
+	{
+		return view('pages/joinus');
+	}
+	public function slider1()
+	{
+		return view('pages/slider1');
+	}
 }
